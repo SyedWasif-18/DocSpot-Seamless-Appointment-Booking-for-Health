@@ -1,0 +1,63 @@
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0c29;
+  color: white;
+}
+
+/* Neon fix for AntD Table */
+.ant-table-wrapper,
+.ant-table,
+.ant-table-container,
+.ant-table-content,
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table-cell {
+  background: transparent !important;
+  color: white !important;
+  backdrop-filter: blur(8px);
+}
+
+/* Neon glass Card style */
+.ant-card {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  color: white;
+}
+
+.ant-card-head-title {
+  color: #00eaff;
+  text-shadow: 0 0 4px #00ffff;
+  font-size: 20px;
+}
+
+/* Form and buttons */
+.ant-input, .ant-upload, .ant-form-item-label label {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border-color: #00eaff !important;
+}
+
+.ant-btn-primary {
+  background-color: #00eaff !important;
+  border-color: #00eaff !important;
+  color: black !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #26c6da !important;
+  border-color: #26c6da !important;
+}
+
+
+.ant-table-body::-webkit-scrollbar {
+  width: 8px;
+}
+.ant-table-body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 255, 255, 0.3);
+  border-radius: 10px;
+}
