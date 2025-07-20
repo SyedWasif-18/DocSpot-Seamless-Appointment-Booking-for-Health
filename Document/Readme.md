@@ -166,7 +166,7 @@ backend/
 
 ## 📷 Screenshots
 
-> Add screenshots of:
+
 ###  User Dashboard
 ![User Dashboard](../ProjectFiles/frontend/screenshots/user_dashboard.png)
 
